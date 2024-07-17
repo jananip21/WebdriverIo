@@ -1,0 +1,30 @@
+{
+  "name": "webdriverio",
+  "version": "1.0.0",
+  "description": "Webdriver Io Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jananip21/WebdriverIo.git"
+  },
+  "author": "JananiP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jananip21/WebdriverIo/issues"
+  },
+  "homepage": "https://github.com/jananip21/WebdriverIo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/register": "^7.24.6",
+    "@wdio/cli": "^8.39.1",
+    "@wdio/local-runner": "^8.39.1",
+    "@wdio/mocha-framework": "^8.39.0",
+    "@wdio/spec-reporter": "^8.39.0",
+    "@wdio/visual-service": "^5.1.1"
+  }
+}
